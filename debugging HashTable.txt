@@ -1,0 +1,548 @@
+--------------------------------------------------------------------------------1. 
+breakpoint at public static void main l31 = HashFunction func = new HashFunction(30);
+>jumped to: constructor.
+values:
+this	HashFunction  (id=648)	
+	arraySize		0	
+	itemsInArray	0	
+	size			30	
+
+--------------------------------------------------------------------------------2.
+jumped to: main class line24: int itemsInArray = 0;
+values:
+this	HashFunction  (id=648)	
+	arraySize		0	
+	itemsInArray	0	
+	size			30	
+>jumped to: constructor
+
+--------------------------------------------------------------------------------3.
+constructor stopped at l83: HashFunction(int size){
+values:
+this	HashFunction  (id=648)	
+	arraySize		30	
+	itemsInArray	0	
+	size			30	
+
+--------------------------------------------------------------------------------4a.
+stopped at l84: Arrays.fill(theArray, "-1");
+values: 
+arg0	String[30]  (id=672)	
+	[0]	null	
+	[1]	null	
+	[2]	null	
+	[3]	null	
+	[4]	null	
+	[5]	null	
+	[6]	null	
+	[7]	null	
+	[8]	null	
+	[9]	null	
+	[10]	null	
+	[11]	null	
+	[12]	null	
+	[13]	null	
+	[14]	null	
+	[15]	null	
+	[16]	null	
+	[17]	null	
+	[18]	null	
+	[19]	null	
+	[20]	null	
+	[21]	null	
+	[22]	null	
+	[23]	null	
+	[24]	null	
+	[25]	null	
+	[26]	null	
+	[27]	null	
+	[28]	null	
+	[29]	null	
+arg1	0	
+arg2	30	
+arg3	"-1" (id=673)	
+	count	2	
+	hash	0	
+	offset	0	
+	value	(id=692)	
+
+--------------------------------------------------------------------------------4b.
+values: 
+arg0	String[30]  (id=670)	
+	[0]	null	
+	[1]	null	
+	[2]	null	
+	[3]	null	
+	[29]	null	
+arg1	0	
+arg2	30	
+arg3	"-1" (id=671)	
+	count	2	
+
+
+--------------------------------------------------------------------------------5. 
+values:
+	arg0	String[30]  (id=672)	
+		[0]	null	
+		[1]	null	
+		[2]	null	
+		[3]	null	
+	arg1	0	
+	arg2	30	
+	arg3	"-1" (id=673)	
+	
+--------------------------------------------------------------------------------6.
+values: 
+arg0	String[30]  (id=672)	
+	[0]	"-1" (id=673)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=692)	
+	[1]	"-1" (id=673)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=692)	
+	[2]	"-1" (id=673)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=692)	
+	[3]	"-1" (id=673)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=692)	
+	[4]	"-1" (id=673)	
+	[5]	"-1" (id=673)	
+	[6]	"-1" (id=673)	
+	[7]	"-1" (id=673)	
+	[8]	"-1" (id=673)	
+	[9]	"-1" (id=673)	
+	[10]	"-1" (id=673)	
+	[11]	"-1" (id=673)	
+	[12]	"-1" (id=673)	
+	[13]	"-1" (id=673)	
+	[14]	"-1" (id=673)	
+	[15]	"-1" (id=673)	
+	[16]	"-1" (id=673)	
+	[17]	"-1" (id=673)	
+	[18]	"-1" (id=673)	
+	[19]	"-1" (id=673)	
+	[20]	"-1" (id=673)	
+	[21]	"-1" (id=673)	
+	[22]	"-1" (id=673)	
+	[23]	"-1" (id=673)	
+	[24]	"-1" (id=673)	
+	[25]	"-1" (id=673)	
+	[26]	"-1" (id=673)	
+	[27]	"-1" (id=673)	
+	[28]	null	
+	[29]	null	
+arg1	0	
+arg2	30	
+arg3	"-1" (id=673)	
+	count	2	
+	hash	0	
+	offset	0	
+	value	(id=692)	
+
+--------------------------------------------------------------------------------7.
+arg0	String[30]  (id=672)	
+	[0]	"-1" (id=673)	
+	[1]	"-1" (id=673)	
+	[2]	"-1" (id=673)	
+	[3]	"-1" (id=673)	
+	[4]	"-1" (id=673)	
+	[5]	"-1" (id=673)	
+	[6]	"-1" (id=673)	
+	[7]	"-1" (id=673)	
+	[8]	"-1" (id=673)	
+	[9]	"-1" (id=673)	
+	[10]	"-1" (id=673)	
+	[11]	"-1" (id=673)	
+	[12]	"-1" (id=673)	
+	[13]	"-1" (id=673)	
+	[14]	"-1" (id=673)	
+	[15]	"-1" (id=673)	
+	[16]	"-1" (id=673)	
+	[17]	"-1" (id=673)	
+	[18]	"-1" (id=673)	
+	[19]	"-1" (id=673)	
+	[20]	"-1" (id=673)	
+	[21]	"-1" (id=673)	
+	[22]	"-1" (id=673)	
+	[23]	"-1" (id=673)	
+	[24]	"-1" (id=673)	
+	[25]	"-1" (id=673)	
+	[26]	"-1" (id=673)	
+	[27]	"-1" (id=673)	
+	[28]	"-1" (id=673)	
+	[29]	"-1" (id=673)	
+arg1	"-1" (id=673)	
+	count	2	
+	hash	0	
+	offset	0	
+	value	(id=692)	
+
+--------------------------------------------------------------------------------8.
+l34: String[] elementsToAdd = {"1", "5", "17", "21", "26"};
+values: 
+[]
+
+l37: func.hashFunction(elementsToAdd, func.theArray);
+values:
+args	String[0]  (id=29)	
+func	HashFunction  (id=16)	
+	arraySize	30	
+	itemsInArray	0	
+elementsToAdd	String[5]  (id=671)	
+	[0]	"1" (id=682)	
+		count	1	
+		hash	0	
+		offset	0	
+		value	(id=702)	
+	[1]	"5" (id=683)	
+		count	1	
+		hash	0	
+		offset	0	
+		value	(id=700)	
+	[2]	"17" (id=684)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=701)	
+	[3]	"21" (id=685)	
+		count	2	
+		hash	0	
+		offset	0	
+		value	(id=703)	
+	[4]	"26" (id=699)	
+
+--------------------------------------------------------------------------------9.
+l47,l48: public void hashFunction(String[] stringsForArray, String[] theArray)
+values: 
+this	HashFunction  (id=16)	
+	arraySize	30	
+	itemsInArray	0	
+stringsForArray	String[5]  (id=671)	
+	[0]	"1" (id=682)	
+	[1]	"5" (id=683)	
+	[2]	"17" (id=684)	
+	[3]	"21" (id=685)	
+	[4]	"26" (id=699)	
+theArray	String[30]  (id=22)	
+	[0]	"-1" (id=25)	
+	[1]	"-1" (id=25)	
+	[2]	"-1" (id=25)	
+	[3]	"-1" (id=25)	
+	[4]	"-1" (id=25)	
+	[5]	"-1" (id=25)	
+	[6]	"-1" (id=25)	
+	[7]	"-1" (id=25)	
+	[8]	"-1" (id=25)	
+	[9]	"-1" (id=25)	
+	[10]	"-1" (id=25)	
+	[11]	"-1" (id=25)	
+	[12]	"-1" (id=25)	
+	[13]	"-1" (id=25)	
+	[14]	"-1" (id=25)	
+	[15]	"-1" (id=25)	
+	[16]	"-1" (id=25)	
+	[17]	"-1" (id=25)	
+	[18]	"-1" (id=25)	
+	[19]	"-1" (id=25)	
+	[20]	"-1" (id=25)	
+	[21]	"-1" (id=25)	
+	[22]	"-1" (id=25)	
+	[23]	"-1" (id=25)	
+	[24]	"-1" (id=25)	
+	[25]	"-1" (id=25)	
+	[26]	"-1" (id=25)	
+	[27]	"-1" (id=25)	
+	[28]	"-1" (id=25)	
+	[29]	"-1" (id=25)	
+
+
+	
+--------------------------------------------------------------------------------10.
+l49: for (int n = 0; n < stringsForArray.length; n++) { 
+String newElementVal = stringsForArray[n];
+
+values: 
+this	HashFunction  (id=16)	
+stringsForArray	String[5]  (id=671)	
+theArray	String[30]  (id=22)	
+
+values:
+this	HashFunction  (id=16)	
+	arraySize	30	
+	itemsInArray	0	
+stringsForArray	String[5]  (id=671)	
+	[0]	"1" (id=682)	
+theArray	String[30]  (id=22)	
+
+values:
+HashFunction@6860991f
+30
+0
+[1, 5, 17, 21, 26]
+1
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+
+values: 
+arg0	"1" (id=682)	
+	count	1	
+	hash	0	
+	offset	0	
+	value	(id=702)	
+
+values: 
+arg0	"1" (id=682)	
+	count	1	
+	hash	0	
+	offset	0	
+	value	(id=702)	
+		[0]	1	
+arg1	10	
+
+values: 
+arg0	"1" (id=682)	
+	count	1	
+	hash	0	
+	offset	0	
+	value	(id=702)	
+		[0]	1	
+arg1	10	
+
+values: 
+arg0	49	
+arg1	10	
+
+values: 
+arg0	49	
+
+values: 
+arg0	"1" (id=682)	
+	count	1	
+	hash	0	
+	offset	0	
+	value	(id=702)	
+		[0]	1	
+arg1	10	
+
+--------------------------------------------------------------------------------11.
+end of for in 10.
+
+values a1:
+this	HashFunction  (id=16)	
+	arraySize	30	
+	itemsInArray	0	
+stringsForArray	String[5]  (id=671)	
+	[0]	"1" (id=682)	
+theArray	String[30]  (id=22)	
+n	0	
+newElementVal	"1" (id=682)	
+
+values a2:
+HashFunction@6860991f
+30
+0
+[1, 5, 17, 21, 26]
+1
+[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+0
+1
+
+
+--------------------------------------------------------------------------------12.
+l54: int arrayIndex = Integer.parseInt(newElementVal) % 5;
+values: 
+sun.misc.Launcher$AppClassLoader@5ab8df17
+java.security.AccessControlContext@0
+null
+[class HashFunction]
+false
+sun.misc.Launcher$ExtClassLoader@1f3e8d89
+{(file:/Users/joedan/Documents/EclipseWorkspace/HashTable/bin/ <no signer certificates>)=ProtectionDomain  (file:/Users/joedan/Documents/EclipseWorkspace/HashTable/bin/ <no signer certificates>)
+ sun.misc.Launcher$AppClassLoader@5ab8df17
+ <no principals>
+ java.security.Permissions@508de972 (
+ (java.io.FilePermission /Users/joedan/Documents/EclipseWorkspace/HashTable/bin/- read)
+ (java.lang.RuntimePermission exitVM)
+)
+
+}
+sun.misc.URLClassPath@14d964af
+java.lang.StringBuilder
+23
+0
+
+--------------------------------------------------------------------------------13.
+values a1: 
+HashFunction@1f8b81e3
+30
+0
+[1, 5, 17, 21, 26]
+1
+[5, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+2
+
+values a2: 
+this	HashFunction  (id=648)	
+	arraySize	30	
+	itemsInArray	0	
+stringsForArray	String[5]  (id=650)	
+	[0]	"1" (id=654)	
+		count	1	
+		hash	0	
+		offset	0	
+		value	(id=839)	
+	[1]	"5" (id=835)	
+	[2]	"17" (id=818)	
+	[3]	"21" (id=836)	
+	[4]	"26" (id=837)	
+theArray	String[30]  (id=653)	
+	[0]	"5" (id=835)	
+	[1]	"1" (id=654)	
+	[2]	"-1" (id=838)	
+	[3]	"-1" (id=838)	
+	[4]	"-1" (id=838)	
+	[5]	"-1" (id=838)	
+	[6]	"-1" (id=838)	
+	[7]	"-1" (id=838)	
+	[8]	"-1" (id=838)	
+	[9]	"-1" (id=838)	
+	[10]	"-1" (id=838)	
+	[11]	"-1" (id=838)	
+	[12]	"-1" (id=838)	
+	[13]	"-1" (id=838)	
+	[14]	"-1" (id=838)	
+	[15]	"-1" (id=838)	
+	[16]	"-1" (id=838)	
+	[17]	"-1" (id=838)	
+	[18]	"-1" (id=838)	
+	[19]	"-1" (id=838)	
+	[20]	"-1" (id=838)	
+	[21]	"-1" (id=838)	
+	[22]	"-1" (id=838)	
+	[23]	"-1" (id=838)	
+	[24]	"-1" (id=838)	
+	[25]	"-1" (id=838)	
+	[26]	"-1" (id=838)	
+	[27]	"-1" (id=838)	
+	[28]	"-1" (id=838)	
+	[29]	"-1" (id=838)	
+n	2	
+newElementVal	"17" (id=818)	
+arrayIndex	2	
+
+values: 
+this	HashFunction  (id=648)	
+	arraySize	30	
+	itemsInArray	0	
+stringsForArray	String[5]  (id=650)	
+	[0]	"1" (id=654)	
+		count	1	
+		hash	0	
+		offset	0	
+		value	(id=839)	
+	[1]	"5" (id=835)	
+	[2]	"17" (id=818)	
+	[3]	"21" (id=836)	
+	[4]	"26" (id=837)	
+theArray	String[30]  (id=653)	
+	[0]	"5" (id=835)	
+	[1]	"1" (id=654)	
+	[2]	"17" (id=818)	
+	[3]	"21" (id=836)	
+	[4]	"-1" (id=838)	
+	[5]	"-1" (id=838)	
+	[6]	"-1" (id=838)	
+	[7]	"-1" (id=838)	
+	[8]	"-1" (id=838)	
+	[9]	"-1" (id=838)	
+	[10]	"-1" (id=838)	
+	[11]	"-1" (id=838)	
+	[12]	"-1" (id=838)	
+	[13]	"-1" (id=838)	
+	[14]	"-1" (id=838)	
+	[15]	"-1" (id=838)	
+	[16]	"-1" (id=838)	
+	[17]	"-1" (id=838)	
+	[18]	"-1" (id=838)	
+	[19]	"-1" (id=838)	
+	[20]	"-1" (id=838)	
+	[21]	"-1" (id=838)	
+	[22]	"-1" (id=838)	
+	[23]	"-1" (id=838)	
+	[24]	"-1" (id=838)	
+	[25]	"-1" (id=838)	
+	[26]	"-1" (id=838)	
+	[27]	"-1" (id=838)	
+	[28]	"-1" (id=838)	
+	[29]	"-1" (id=838)	
+n	4	
+newElementVal	"26" (id=837)	
+arrayIndex	4	
+
+values: 
+HashFunction@1f8b81e3
+30
+0
+[1, 5, 17, 21, 26]
+1
+[5, 1, 17, 21, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+4
+
+values a:
+args	String[0]  (id=15)	
+func	HashFunction  (id=648)	
+	arraySize	30	
+	itemsInArray	0	
+elementsToAdd	String[5]  (id=650)	
+	[0]	"1" (id=654)	
+		count	1	
+		hash	0	
+		offset	0	
+		value	(id=839)	
+	[1]	"5" (id=835)	
+	[2]	"17" (id=818)	
+	[3]	"21" (id=836)	
+	[4]	"26" (id=837)	
+
+values b:
+[]
+HashFunction@1f8b81e3
+30
+0
+[1, 5, 17, 21, 26]
+1
+
+console: 
+Modulus Index= 1 for value 1
+Modulus Index= 0 for value 5
+Modulus Index= 2 for value 17
+Modulus Index= 1 for value 21
+Collision Try 2 Instead
+Collision Try 3 Instead
+Modulus Index= 1 for value 26
+Collision Try 2 Instead
+Collision Try 3 Instead
+Collision Try 4 Instead
+-----------------------------------------------------------------------
+|   0  |   1  |   2  |   3  |   4  |   5  |   6  |   7  |   8  |   9  |
+-----------------------------------------------------------------------
+|   5  |   1  |  17  |  21  |  26  |      |      |      |      |      |
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+|  10  |  11  |  12  |  13  |  14  |  15  |  16  |  17  |  18  |  19  |
+-----------------------------------------------------------------------
+|      |      |      |      |      |      |      |      |      |      |
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+|  20  |  21  |  22  |  23  |  24  |  25  |  26  |  27  |  28  |  29  |
+-----------------------------------------------------------------------
+|      |      |      |      |      |      |      |      |      |      |
+-----------------------------------------------------------------------

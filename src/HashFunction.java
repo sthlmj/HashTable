@@ -18,7 +18,7 @@ import java.util.Arrays;
 //-----main class
 public class HashFunction{
 	
-	//-----creating variables for the hash table
+	//-----creating variables and theArray hash table
 	public static String[] theArray;
 	int arraySize; 
 	int itemsInArray = 0;
@@ -41,20 +41,26 @@ public class HashFunction{
 	
 	//-----the hash function
 	/**
-	 * 
+	 * @param stringsForArray innehåller nu 5 element elementsToAdd.
+	 * for loopar < 5 gör newElementVal = 5
 	 */
 	public void hashFunction(String[] stringsForArray, String[] theArray){	//receive string string of numbers that is going to be stored in arrray
 		
 		for (int n = 0; n < stringsForArray.length; n++) {		//array that have a bunch of values that we want to insert in the regular array
 			String newElementVal = stringsForArray[n];			//take the info that is stored inside of the array that is been passed over 
+			
 		
-		//create an index to store the value in by taking the modulus
-		int arrayIndex = Integer.parseInt(newElementVal) % 5;
+		//
+		//create an index to store the value in by taking the modulus of the string value and parse to int arrayIndex.
+		//21 mod 10 = 21/10=2 remainder 1 == 1
+		//
+		int arrayIndex = Integer.parseInt(newElementVal) % 10;
 		
+		//prints the arrayIndex and the elementValue
 		System.out.println("Modulus Index= " + arrayIndex + " for value " + newElementVal);
 		
-		//looping through the array until we find empty space
-		while (theArray[arrayIndex] != "-1") {	
+		//looping through the array until we find empty space. while theArray index != -1 
+		while (theArray[arrayIndex] != "0") {	
 			arrayIndex++;
 			
 			System.out.println("Collision Try " + arrayIndex + " Instead");
@@ -74,12 +80,17 @@ public class HashFunction{
 	 *  
 	 * @param size store arraySize, create array with that specific size, 
 	 *  two hash functions and fill negative 1 in every single index in the array that starts out to display index info.  
+	 *  
+	 *  @param Arrays.fill Assigns the specified int value "0" to each element of the specified array of ints. 
+	 *  If value in array = 0, display "|      "
 	 * 
 	 */
 	HashFunction(int size){
 		arraySize = size;
 		theArray = new String[size];
-		Arrays.fill(theArray, "-1");
+		Arrays.fill(theArray, "0");
+
+		
 		
 	}
 	
@@ -112,7 +123,7 @@ public class HashFunction{
 
 			for (int n = increment - 10; n < increment; n++) {
 
-				if (theArray[n].equals("-1"))
+				if (theArray[n].equals("0"))
 					System.out.print("|      ");
 
 				else
